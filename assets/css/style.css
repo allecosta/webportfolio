@@ -99,6 +99,13 @@ nav ul li {
     margin-top: 30px;
 }
 
+.img-bio {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
 .bio {
     width: 25rem;
     padding: 0.625rem;
