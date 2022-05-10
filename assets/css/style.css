@@ -277,3 +277,17 @@ nav ul li {
     border: 2px solid var(--primary-color);
     cursor: pointer;
 }
+
+/* Redes sociais */
+.socials {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 1%;
+    bottom: 50%;
+}
+
+.socicon {
+    width: 3rem;
+    height: 3rem;
+}
