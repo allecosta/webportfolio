@@ -230,6 +230,13 @@ nav ul li {
     margin: 10px;
 }
 
+@media screen and (max-width: 720px) {
+    .icon {
+        width: 4.875rem;
+        height: 4.25rem;
+    }
+}
+
 /* Projetos */
 .projects {
     background-color: var(--bg-color);
