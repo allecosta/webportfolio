@@ -152,6 +152,24 @@ nav ul li {
     padding: 0.3rem 0;
 }
 
+@media screen and (max-width: 720px) {
+    .hero {
+        margin-top: -4rem;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .hero img {
+        height: 37.5rem;
+        width: 30rem;
+    }
+
+    .bio {
+        margin-top: -7rem;
+        width: 20.5rem;
+    }
+}
+
 .more-about {
     background-color: var(--bg-color);
     padding: 1rem 6rem;
@@ -166,6 +184,21 @@ nav ul li {
 .more-about p {
     line-height: var(--line-height);
     padding: 0.4rem;
+}
+
+@media screen and (max-width: 720px) {
+    .more-about {
+        margin-top: 2rem;
+        padding-top: 1rem 3.5rem;
+    }
+
+    .more-about h2 {
+        text-align: center;
+    }
+
+    .more-about p {
+        text-align: justify;
+    }
 }
 
 /* Conhecimentos */
