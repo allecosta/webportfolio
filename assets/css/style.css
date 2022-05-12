@@ -358,6 +358,12 @@ nav ul li {
     cursor: pointer;
 }
 
+@media screen and (max-widht: 720px) {
+    .contact-form-container {
+        max-width: 23.75rem;
+    }
+}
+
 /* Redes sociais */
 .socials {
     display: flex;
